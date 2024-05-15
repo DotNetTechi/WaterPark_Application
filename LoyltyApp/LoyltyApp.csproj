@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{652A9D01-5A04-4079-A954-E18E74BDD7D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoyltyApp</RootNamespace>
+    <AssemblyName>LoyltyApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Company_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company_Report.designer.cs">
+      <DependentUpon>Company_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coustume Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coustume Master.Designer.cs">
+      <DependentUpon>Coustume Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodBeveragecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodBeveragecs.Designer.cs">
+      <DependentUpon>FoodBeveragecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monozip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monozip.Designer.cs">
+      <DependentUpon>Monozip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_Master.designer.cs">
+      <DependentUpon>Product_Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costumes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Costumes.designer.cs">
+      <DependentUpon>Costumes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDisplayCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDisplayCard.designer.cs">
+      <DependentUpon>AddDisplayCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ACR120U.cs" />
+    <Compile Include="Classes\clsCommands.cs" />
+    <Compile Include="Classes\clsConnections.cs" />
+    <Compile Include="Classes\clsFunctions.cs" />
+    <Compile Include="Classes\clsVariables.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginScreen.designer.cs">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RechargeCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RechargeCard.designer.cs">
+      <DependentUpon>RechargeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Report.designer.cs">
+      <DependentUpon>Customer_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Profile.designer.cs">
+      <DependentUpon>Update_Profile.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Company_Report.resx">
+      <DependentUpon>Company_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coustume Master.resx">
+      <DependentUpon>Coustume Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodBeveragecs.resx">
+      <DependentUpon>FoodBeveragecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monozip.resx">
+      <DependentUpon>Monozip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product_Master.resx">
+      <DependentUpon>Product_Master.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costumes.resx">
+      <DependentUpon>Costumes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDisplayCard.resx">
+      <DependentUpon>AddDisplayCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginScreen.resx">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RechargeCard.resx">
+      <DependentUpon>RechargeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Report.resx">
+      <DependentUpon>Customer_Report.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Profile.resx">
+      <DependentUpon>Update_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
