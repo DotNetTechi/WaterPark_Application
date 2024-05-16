@@ -52,17 +52,17 @@
     <Compile Include="Company_Report.designer.cs">
       <DependentUpon>Company_Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="Coustume Master.cs">
+    <Compile Include="Costume_Master.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Coustume Master.Designer.cs">
-      <DependentUpon>Coustume Master.cs</DependentUpon>
+    <Compile Include="Costume_Master.Designer.cs">
+      <DependentUpon>Costume_Master.cs</DependentUpon>
     </Compile>
-    <Compile Include="FoodBeveragecs.cs">
+    <Compile Include="FoodBeverage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FoodBeveragecs.Designer.cs">
-      <DependentUpon>FoodBeveragecs.cs</DependentUpon>
+    <Compile Include="FoodBeverage.Designer.cs">
+      <DependentUpon>FoodBeverage.cs</DependentUpon>
     </Compile>
     <Compile Include="Monozip.cs">
       <SubType>Form</SubType>
@@ -70,11 +70,11 @@
     <Compile Include="Monozip.Designer.cs">
       <DependentUpon>Monozip.cs</DependentUpon>
     </Compile>
-    <Compile Include="Product_Master.cs">
+    <Compile Include="Food Beverage Master.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Product_Master.designer.cs">
-      <DependentUpon>Product_Master.cs</DependentUpon>
+    <Compile Include="Food Beverage Master.designer.cs">
+      <DependentUpon>Food Beverage Master.cs</DependentUpon>
     </Compile>
     <Compile Include="Admin.cs">
       <SubType>Form</SubType>
@@ -134,17 +134,17 @@
     <EmbeddedResource Include="Company_Report.resx">
       <DependentUpon>Company_Report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Coustume Master.resx">
-      <DependentUpon>Coustume Master.cs</DependentUpon>
+    <EmbeddedResource Include="Costume_Master.resx">
+      <DependentUpon>Costume_Master.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoodBeveragecs.resx">
-      <DependentUpon>FoodBeveragecs.cs</DependentUpon>
+    <EmbeddedResource Include="FoodBeverage.resx">
+      <DependentUpon>FoodBeverage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Monozip.resx">
       <DependentUpon>Monozip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Product_Master.resx">
-      <DependentUpon>Product_Master.cs</DependentUpon>
+    <EmbeddedResource Include="Food Beverage Master.resx">
+      <DependentUpon>Food Beverage Master.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin.resx">

@@ -30,10 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.AdminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.FoodBeverageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.costumesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.FoodMastertoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.FoodBeverageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CostumeMasterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FoodMastertoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.monorailZiplinesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cardIssueDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RechargetoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,10 +50,10 @@
             this.menuStrip1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AdminToolStripMenuItem,
-            this.CostumeMasterToolStripMenuItem,
             this.costumesToolStripMenuItem,
-            this.FoodMastertoolStripMenuItem1,
             this.FoodBeverageToolStripMenuItem,
+            this.CostumeMasterToolStripMenuItem,
+            this.FoodMastertoolStripMenuItem1,
             this.monorailZiplinesToolStripMenuItem,
             this.cardIssueDetailsToolStripMenuItem,
             this.RechargetoolStripMenuItem1,
@@ -76,13 +76,6 @@
             this.AdminToolStripMenuItem.Text = "Admin";
             this.AdminToolStripMenuItem.Click += new System.EventHandler(this.AdminToolStripMenuItem_Click);
             // 
-            // FoodBeverageToolStripMenuItem
-            // 
-            this.FoodBeverageToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.FoodBeverageToolStripMenuItem.Name = "FoodBeverageToolStripMenuItem";
-            this.FoodBeverageToolStripMenuItem.Size = new System.Drawing.Size(113, 23);
-            this.FoodBeverageToolStripMenuItem.Text = "Food&Beverage";
-            // 
             // costumesToolStripMenuItem
             // 
             this.costumesToolStripMenuItem.ForeColor = System.Drawing.Color.White;
@@ -91,6 +84,22 @@
             this.costumesToolStripMenuItem.Text = "Costumes";
             this.costumesToolStripMenuItem.Click += new System.EventHandler(this.calculateBillToolStripMenuItem_Click);
             // 
+            // FoodBeverageToolStripMenuItem
+            // 
+            this.FoodBeverageToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.FoodBeverageToolStripMenuItem.Name = "FoodBeverageToolStripMenuItem";
+            this.FoodBeverageToolStripMenuItem.Size = new System.Drawing.Size(135, 23);
+            this.FoodBeverageToolStripMenuItem.Text = "Costumes Master";
+            this.FoodBeverageToolStripMenuItem.Click += new System.EventHandler(this.FoodBeverageToolStripMenuItem_Click);
+            // 
+            // CostumeMasterToolStripMenuItem
+            // 
+            this.CostumeMasterToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.CostumeMasterToolStripMenuItem.Name = "CostumeMasterToolStripMenuItem";
+            this.CostumeMasterToolStripMenuItem.Size = new System.Drawing.Size(117, 23);
+            this.CostumeMasterToolStripMenuItem.Text = "Food Beverage";
+            this.CostumeMasterToolStripMenuItem.Click += new System.EventHandler(this.foodBevarageToolStripMenuItem_Click);
+            // 
             // FoodMastertoolStripMenuItem1
             // 
             this.FoodMastertoolStripMenuItem1.ForeColor = System.Drawing.Color.White;
@@ -98,14 +107,6 @@
             this.FoodMastertoolStripMenuItem1.Size = new System.Drawing.Size(102, 23);
             this.FoodMastertoolStripMenuItem1.Text = "Food Master";
             this.FoodMastertoolStripMenuItem1.Click += new System.EventHandler(this.ProductMastertoolStripMenuItem1_Click);
-            // 
-            // CostumeMasterToolStripMenuItem
-            // 
-            this.CostumeMasterToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.CostumeMasterToolStripMenuItem.Name = "CostumeMasterToolStripMenuItem";
-            this.CostumeMasterToolStripMenuItem.Size = new System.Drawing.Size(128, 23);
-            this.CostumeMasterToolStripMenuItem.Text = "Costume Master";
-            this.CostumeMasterToolStripMenuItem.Click += new System.EventHandler(this.foodBevarageToolStripMenuItem_Click);
             // 
             // monorailZiplinesToolStripMenuItem
             // 

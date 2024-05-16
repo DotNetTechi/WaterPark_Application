@@ -77,12 +77,12 @@ namespace LoyltyApp
                     clsVariables.boolConnected = true;
                     User = (bool)sDataRow["AddUser"];
                     Recharge = (bool)sDataRow["Recharge"];
-                    Product = (bool)sDataRow["FoodMaster"];
+                    Product = (bool)sDataRow["AddProduct"];
                     companyRpt = (bool)sDataRow["companyRpt"];
                     Purchase = (bool)sDataRow["Purchase"];
                     AddCard = (bool)sDataRow["AddCard"];
                     ChanPassword = (bool)sDataRow["ChangePassword"];
-                    FoodBeverage=(bool)sDataRow["Food&Beverage"];
+                  
                     Connect();
                     FrmMain f = new FrmMain();
                     f = (FrmMain)this.MdiParent;
@@ -115,10 +115,7 @@ namespace LoyltyApp
                     {
                         f.updateProfile();
                     }
-                    if( ==true)
-                    {
-
-                    }
+                  
                     f.loginDisable();
                     Close();
 

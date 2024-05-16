@@ -574,24 +574,13 @@ namespace LoyltyApp
         #region Category Grid Cell Click
         private void dataGridView3_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            try
-            {
-                string strCellValue = dataGridView3.Rows[e.RowIndex].Cells[0].Value.ToString();
-                if (strCellValue != "" && strCellValue != null)
-                {
-                    txtcname.Text = dataGridView3.Rows[e.RowIndex].Cells[0].Value.ToString();
-                    txtdescription.Text = dataGridView3.Rows[e.RowIndex].Cells[2].Value.ToString();
-                    StrCategoryID = dataGridView3.Rows[e.RowIndex].Cells[1].Value.ToString();
-                    button3.Text = "Update";
-                }
-            }
-            catch(Exception exp){}
         }
-        #endregion
 
         #endregion
 
-        private void pname_SelectedIndexChanged(object sender, EventArgs e)
+        #endregion
+
+        private void AddCategory_Click(object sender, EventArgs e)
         {
 
         }

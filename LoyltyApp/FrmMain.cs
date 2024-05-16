@@ -104,7 +104,7 @@ namespace LoyltyApp
             companyReportToolStripMenuItem.Enabled = false;
             costumesToolStripMenuItem.Enabled = false;
             customerReportToolStripMenuItem.Enabled = false;
-            //CostumeMasterToolStripMenuItem.Enabled = false;
+            //Costume_MasterToolStripMenuItem.Enabled = false;
             //FoodBeverageToolStripMenuItem.Enabled = false;
             //monorailZiplinesToolStripMenuItem.Enabled = false;
             FoodMastertoolStripMenuItem1.Enabled = false;
@@ -165,12 +165,17 @@ namespace LoyltyApp
 
         private void foodBevarageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            showForm(new FoodBeveragecs());
+            showForm(new FoodBeverage());
         }
 
         private void monorailZiplinesToolStripMenuItem_Click(object sender, EventArgs e)
         {          
             showForm(new Monozip());
+        }
+
+        private void FoodBeverageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            showForm(new Costume_Master());
         }
     }
 }

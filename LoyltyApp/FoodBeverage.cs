@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace LoyltyApp
 {
-    public partial class FoodBeveragecs : Form
+    public partial class FoodBeverage : Form
     {
-        public FoodBeveragecs()
+        public FoodBeverage()
         {
             InitializeComponent();
         }

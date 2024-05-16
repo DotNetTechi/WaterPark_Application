@@ -118,7 +118,8 @@
             this.AddCategory.Name = "AddCategory";
             this.AddCategory.Size = new System.Drawing.Size(1356, 650);
             this.AddCategory.TabIndex = 2;
-            this.AddCategory.Text = "Add Category";
+            this.AddCategory.Text = "Add Food Category";
+            this.AddCategory.Click += new System.EventHandler(this.AddCategory_Click);
             // 
             // groupBox3
             // 
@@ -271,7 +272,7 @@
             this.AddProduct.Padding = new System.Windows.Forms.Padding(3);
             this.AddProduct.Size = new System.Drawing.Size(1356, 650);
             this.AddProduct.TabIndex = 0;
-            this.AddProduct.Text = "Add Product";
+            this.AddProduct.Text = "Add Food Product";
             // 
             // dataGridView2
             // 
@@ -344,7 +345,6 @@
             this.pname.Name = "pname";
             this.pname.Size = new System.Drawing.Size(167, 28);
             this.pname.TabIndex = 1;
-            this.pname.SelectedIndexChanged += new System.EventHandler(this.pname_SelectedIndexChanged);
             // 
             // idcat
             // 
